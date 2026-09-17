@@ -25,7 +25,7 @@ Before your session, make sure you have:
 ## Setup
 
 ```bash
-git clone <this-repo-url>
+git clone https://github.com/colinven/test-it-please.git
 cd test-it-please
 python3 -m venv .venv
 source .venv/bin/activate

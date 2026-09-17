@@ -24,6 +24,8 @@ Before your session, make sure you have:
 
 ## Setup
 
+**macOS / Linux / WSL:**
+
 ```bash
 git clone https://github.com/colinven/test-it-please.git
 cd test-it-please
@@ -32,6 +34,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 code .
 ```
+
+**Windows (PowerShell):**
+
+```powershell
+git clone https://github.com/colinven/test-it-please.git
+cd test-it-please
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+code .
+```
+
+If PowerShell blocks the activation script with an execution policy error, run `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass` first, then retry.
 
 Then open Claude Code in the project directory. That's it.
 

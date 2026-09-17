@@ -1,17 +1,17 @@
 # T.I.P. — Test It, Please
 
-Generate pytest test cases on the fly for CodePath problems, using Claude Code + VS Code Live Share.
+A shared workspace for collaborating during CodePath student breakout sessions, with easy pytest test case generation built in.
 
 ## What this is
 
-This repo has one job: a Claude Code slash command called `/gen-tests`. Paste in a problem statement and a function signature, and it creates:
+This repo is a workspace for pairing or grouping up on CodePath problems together, built around one core tool: a Claude Code slash command called `/gen-tests`. Paste in a problem statement and a function signature, and it creates:
 
 - an empty `solution.py` stub for you to implement (it never writes the solution for you)
 - a `test_solution.py` file with a handful of pytest edge-case tests
 
 Then you write your solution and run pytest to get instant pass/fail feedback — no need to hand-write test cases before you can start checking your work.
 
-This is meant for **student collaboration breakout sessions**
+This is meant for **student collaboration breakout sessions**.
 
 ## Requirements
 

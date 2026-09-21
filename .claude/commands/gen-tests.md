@@ -8,7 +8,7 @@ $ARGUMENTS
 
 1. Pick a slug: `p<N>_<function_name>` where N is the next unused number in `problems/`.
 2. Create `problems/<slug>/` if it doesn't exist, with an empty `__init__.py` inside it (and one in `problems/` itself if missing). This gives each problem its own importable package and avoids test-module name collisions between problems.
-3. If `problems/<slug>/solution.py` does not exist, create it containing the function signature and `pass` (do not implement the solution). Above the function definition, add this docstring-style block for jotting down thought process:
+3. If `problems/<slug>/solution.py` does not exist, create it containing the function signature and `pass` (do not implement the solution). At the top of the tile, above the function definition, add this docstring-style block for jotting down thought process:
    ```
    """
    UNDERSTAND:
